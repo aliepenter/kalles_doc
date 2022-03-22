@@ -109,7 +109,7 @@ const common = {
                 element.onclick = function(e) {
                     __this.hideMenu();
                     const id = this.id;
-                    __this.removeVideo()
+                    // __this.removeVideo()
                     const sectionId = id.replace('Btn', '')
                     $('#' + sectionId).load(sectionId+'.php')
                     if (content.querySelector('section.active') !== null) {
@@ -158,9 +158,9 @@ const common = {
         })
         parent.innerHTML = contentMenu;
     },
-    removeVideo: function(){
-        video.classList.add('disnone')
-    }
+    // removeVideo: function(){
+    //     video.classList.add('disnone')
+    // }
 }
 const app = {
     callMenu: function(){
