@@ -224,6 +224,10 @@
                         </section>
                         <section class="section" id="introduction">
                         </section>
+                        <section class="section" id="baseinstall">
+                        </section>
+                        <section class="section" id="quickinstall">
+                        </section>
                         <section class="section" id="revslider">
                         </section>
                         <section class="section" id="themedesign">
