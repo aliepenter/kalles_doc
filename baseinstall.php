@@ -29,7 +29,7 @@
 <div class="base-packege">
     <h2 class="title">BASE PACKAGE</h2>
     <div class="prepare-install">
-        <h3>1. Prepare Installation</h3>
+        <h3 style="padding-top: 10px">1. Prepare Installation</h3>
         <p>In this guide, We assume that you already have Magento installed, so to prepare installation, you need to do the following steps:</p>
         <ol>
             <li>
@@ -46,15 +46,15 @@
         </ol>
     </div>
     <div class="Install">
-        <h3>2. Install</h3>
+        <h3 style="padding-top: 10px">2. Install</h3>
         <ol>
             <li>
-                <p> Download  our theme package files from themesforest. </p>
-                <p>1.1. Extract this package, upload folders in bs_shopbuy_base: app, lib, pub to the root directory ( www, public_html) of your magento folder. You can use a FTP software, such as FileZilla, then login to your hosting to do it. </p>
-                <p>1.2. For 2.3.x version, upload and overwrite files  in the bs_shopbuy_v.2.3.x folder.</p>
-                <p>1.3. For 2.4.0_2.4.1 version, upload and overwrite files  in the bs_shopbuy_v.2.4.0_2.4.1 folder.</p>
-                <p>1.4. For 2.4.2 version, upload and overwrite files  in the bs_shopbuy_v.2.4.2 folder.</p>
-                <p>1.5. For 2.4.3 or higher version, continue upload and overwrite files in the bs_shopbuy_v.2.4.x folder </p>
+                <p style="padding-botton: 5px"> Download  our theme package files from themesforest. </p>
+                <p style="padding-botton: 5px">1.1. Extract this package, upload folders in bs_kalles_base: app, lib, pub to the root directory ( www, public_html) of your magento folder. You can use a FTP software, such as FileZilla, then login to your hosting to do it. </p>
+                <p style="padding-botton: 5px">1.2. For 2.3.x version, upload and overwrite files  in the bs_kalles_v.2.3.x folder.</p>
+                <p style="padding-botton: 5px">1.3. For 2.4.0_2.4.1 version, upload and overwrite files  in the bs_kalles_v.2.4.0_2.4.1 folder.</p>
+                <p style="padding-botton: 5px">1.4. For 2.4.2 version, upload and overwrite files  in the bs_kalles_v.2.4.2 folder.</p>
+                <p style="padding-botton: 5px">1.5. For 2.4.3 or higher version, continue upload and overwrite files in the bs_kalles_v.2.4.x folder </p>
             </li>
             <li>Make sure that you upload all theme folders and files successfully. You disable Maintenance Mode for your store.</li>
             <li>Go to SSH on server and cd to root magento and run commandlines below:</li>
@@ -68,29 +68,29 @@
         </ol>
     </div>
     <div class="activetheme">
-        <h3>3. Active theme</h3>
+        <h3 style="padding-top: 10px">3. Active theme</h3>
         <p>Our theme and module come with a license key, a license which you will find in your account Purchase History. <a href="https://help.market.envato.com/hc/en-us/articles/202822600-Where-Is-My-Purchase-Code">Click here</a> if you don't know how to get purchase code.</p>
         <p>To activate the license key for your theme/plugin, follow these steps:</p>
-        <ul style="list-style: none;">
-            <li style="list-style: none;">
+        <ul class="normal" style="padding-botton: 5px">
+            <li>
                 1. Login to admin.
             </li>
-            <li style="list-style: none;">
-                2. Navigate to <strong>Rokanthemes => Rokanthemes Theme => Activation Purchase Code.</strong>
-                <p><img class="img" src="../pub/documentation/images/activetheme.jpeg" alt=""></p>
+            <li>
+                2. Navigate to <code class=""><span class="pre">BLUESKYTECHCO</span> <span class="pre">&gt;</span> <span class="pre">Activation Purchase Code</span></code>
+                <img src="images/activekey.png" alt="" width="90%">
             </li>
-            <li style="list-style: none;">
+            <li>
                 3. Insert the license key into the field and click <strong>Save Config</strong>.
-                <p><img class="img" src="../pub/documentation/images/insertpurchased_code.jpeg"/></p>
+                <img src="images/activekeysave.png" width="90%">
             </li>
         </ul>
         <p> 
     </div>
     <div class="importconent">
-        <h3>4. Import Slider Revolution</h3>
+        <h3 style="padding-top: 10px">4. Import Slider Revolution</h3>
         <p>After install our theme, You need <strong>Import a Slider Revolution</strong>. Please choose a zip file in: <strong>Themes_Files/Base_package/revslider_sample-data/</strong> </p>
-        <p><img class="img" src="../pub/documentation/images/slide-import-file.png"/></p>
-        <p>Please follow this video: <a href="https://youtu.be/IkMHKNRUbpE">https://youtu.be/IkMHKNRUbpE</a> or link: <a href="https://www.sliderrevolution.com/documentation/new-module-creation/" target="_bank">https://www.sliderrevolution.com/documentation/new-module-creation/</a> scroll down to <strong>Import a Module packaged with your Theme</strong> section to see how to import</p>
+        <img src="images/revsliderlist.png" width="90%">
+        <p>Please follow this video: <a class="linkinpage" href="https://youtu.be/IkMHKNRUbpE">https://youtu.be/IkMHKNRUbpE</a> or link: <a href="https://www.sliderrevolution.com/documentation/new-module-creation/" target="_bank">https://www.sliderrevolution.com/documentation/new-module-creation/</a> scroll down to <strong>Import a Module packaged with your Theme</strong> section to see how to import</p>
     </div>
     <div class="importconent">
         <h3>5. One Click Demo Import</h3>
@@ -99,30 +99,31 @@
         <p>
             Please follow this steps:
         </p>
-        <ul style="list-style: none;">
-            <li style="list-style: none;">
+        <ul class="normal">
+            <li>
                 1. Login to admin.
             </li>
-            <li style="list-style: none;">
-                2. Navigate to <strong>Rokanthemes -> Rokanthemes Theme -> Demo importer.</strong>
-                <p><img class="img" src="../pub/documentation/images/demo-import1n.jpeg"/></p>
+            <li>
+                2. Navigate to <span class="pre">BLUESKYTECHCO</span> <span class="pre">&gt;</span> <span class="pre">Demo Importer</span></code>
+                <img src="images/demoimporterpath.png" alt="" width="90%">
             </li>
-            <li style="list-style: none;">
+            <li>
                 3. Choose demo that you want to use and click button <strong>Active</strong>.
-                <p><img class="img" src="../pub/documentation/images/import-1.png"/></p>
+                <img src="images/demoimporteractive.png" width="90%" alt="">
             </li>
-            <li style="list-style: none;">
+            <li>
                 4. A Success message popup will show to inform you about the active. Click button <strong>Ok</strong>
-                <p><img class="img" src="../pub/documentation/images/import-2.png"/></p>
+                <img src="images/demoimportsuccess.png" width="90%" alt="">
             </li>
-            <li style="list-style: none;">
+            <li>
                 5. After loading page done, click button <strong>Save Config</strong>
-                <p><img class="img" src="../pub/documentation/images/import-3.png"/></p>
             </li>
-            <li style="list-style: none;">
+            <li>
                 6. Reload your site, you will see the result.
             </li>
         </ul>
-    </div> 
+    </div>
+    <p>Please follow this video for more information: </p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/9dx4FMF-mT8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 </div>

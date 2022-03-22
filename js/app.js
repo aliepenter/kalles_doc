@@ -102,12 +102,12 @@ const common = {
     //         sectionIndex.closest('.right-column').style.background = '#FFFFFF'
     //     }
     // },
-    parentLink: function(className, childLink){
+    parentLink: function(className){
         const __this = this;
         if (className != null) {
             className.forEach(element => {
                 element.onclick = function(e) {
-                    common.hideMenu();
+                    __this.hideMenu();
                     const id = this.id;
                     __this.removeVideo()
                     const sectionId = id.replace('Btn', '')
@@ -147,34 +147,6 @@ const common = {
                     }
                     // __this.applyMenuBlock()
                 };
-            })
-        }
-        if (childLink != null) {
-            childLink.forEach(el => {
-                el.onclick = function(e) {
-                    const sectionId = this.getAttribute('href').slice(1, this.getAttribute('href').search('pg'))
-                    $('#' + sectionId).load(sectionId+'.php')
-                    const sectionActive = content.querySelector('section.active')
-                    if (sectionActive !== null) {
-                        sectionActive.classList.remove('active')
-                        $$('#' + sectionId).classList.add('active')
-                        // if (flag == 0) {
-                        // __this.dropdown(this)
-                        // }
-                    } else {
-                        $$('#' + sectionId).classList.add('active')
-                        // if (flag == 0) {
-                        // __this.dropdown(this)
-                        // }
-                    }
-                    __this.addLinkActive(cateLink,this);
-                    parentLi.forEach(ele => {
-                        if (ele.classList.contains('menuActive')) {
-                            ele.classList.remove('menuActive')
-                        }
-                    })
-                    el.closest('.parentLi').classList.add('menuActive')
-                }
             })
         }
     },

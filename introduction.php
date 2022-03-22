@@ -25,6 +25,11 @@
         </div>
     </div>
 </div>
+<div class="text-content title">
+    <h1>Welcome to Kalles, Clean minimal Magento 2 theme!</h1>
+    <p>We would like to thank you for purchasing Kalles Magento 2 Theme! Before you get started, please be sure to check out this documentation. We outline all kinds of good information, and provide you with all the details you need to use Kalles Magento 2 Theme.</p>
+    <p>If you are unable to find your answer here in our documentation, please send us a ticket to <a style="padding: 2px 10px; background: #01aae9; color: white" href="https://blueskytechmage.com/osTicket/" target="_blank" rel="noopener noreferrer">support</a> page with your site CPanel(or FTP) and magento admin details. We will try our best to support. Thank you, we hope you to enjoy using our Kalles Magento 2 Theme!</p>
+</div>
 <div class="use">
     <h2 class="title" id="introductionpg-howToUse">
         1. Magento files structure
@@ -187,7 +192,7 @@
     <div class="message-banner">
     You must install Elasticsearch before installing Magento Commerce or Magento Open Source 2.4.0. See <a href="/guides/v2.4/install-gde/prereq/elasticsearch.html">Elasticsearch</a> for details.
   </div>
-  <p>Please follow this link <a href="https://devdocs.magento.com/guides/v2.4/install-gde/system-requirements-tech.html" target="_blank">https://devdocs.magento.com/guides/v2.4/install-gde/system-requirements-tech.html</a></p>
+  <p>Please follow this link <a class="linkinpage" href="https://devdocs.magento.com/guides/v2.4/install-gde/system-requirements-tech.html" target="_blank">https://devdocs.magento.com/guides/v2.4/install-gde/system-requirements-tech.html</a></p>
 	<h3 class="page-heading"><strong>Magento 2.3.x technology stack requirements</strong></h3>
-	<p>Please follow this link <a href="https://devdocs.magento.com/guides/v2.3/install-gde/system-requirements.html">https://devdocs.magento.com/guides/v2.3/install-gde/system-requirements.html</a></p>
+	<p>Please follow this link <a class="linkinpage" href="https://devdocs.magento.com/guides/v2.3/install-gde/system-requirements.html">https://devdocs.magento.com/guides/v2.3/install-gde/system-requirements.html</a></p>
 </div>

@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="shortcut icon" href="./images/favi-icon_cbf.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css?v=21244344">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css?v=2124432244">
     <!-- font-icon -->
     <link rel="stylesheet" href="fonts/fontawesome/css/all.css">
     <link rel="stylesheet" href="fonts/fontawesome2/css/all.min.css">
@@ -19,7 +19,7 @@
 </head>
 <body>
     <div class="site">
-        <div class="header">
+        <!-- <div class="header">
             <div class="container body-content flex-layout">
                 <div class="logo">
                     <a href="" class="home icon-mobile">
@@ -40,10 +40,6 @@
                         <a href="#">Open Store Free</a>
                     </div>
                 </div>
-                <!-- <div class="icon-menu">
-                    <a href="#"></a>
-                </div> -->
-                <!-- menu mobile -->
                 <label for="nav-mobile-input" class="nav_bar-icon d-block d-lg-none">
                     <i class="fa-solid fa-bars"></i>
                 </label>
@@ -66,7 +62,7 @@
         <div class="banner-img">
             <div class="container banner-content">
                 <div class="text-banner">
-                    <h1>Kalles Magento Theme</h1>
+                    <h1>Kalles, Clean minimal Magento 2 theme!</h1>
                     <p>Neque porro quisquam est qui dolorem</p>
                 </div>
             </div>
@@ -103,10 +99,10 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="container">
             <div class="body-content main-content wrap full-wrap">
-                <div class="left-column padding">
+                <div class="left-column padding fixme">
                     <div class="content hiden-content">
                         <ul class="level level0" id="knowledgeBase">
                             <span>1. Introduction</span>
@@ -127,11 +123,6 @@
                         </ul>
                         <ul class="level level0" id="themeCustomize">
                             <span>3.Theme Customize</span>
-                            <li class="parentLi">
-                                <a href="#demoimporterpg" id="demoimporterBtn" class="link-menu link-menu-parent">
-                                    Demo Importer
-                                </a>
-                            </li>
                             <li class="parentLi">
                                 <a href="#themedesignpg" id="themedesignBtn" class="link-menu link-menu-parent">
                                     Theme Design
@@ -298,7 +289,7 @@
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="js/app.js?v=12322222222113333"></script>
+    <script src="js/app.js?v=123222222222113333"></script>
 </body>
 
 </html>
