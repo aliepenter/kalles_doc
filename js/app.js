@@ -19,7 +19,7 @@ const extension = $$$('#extension .parentLi')
 const kb = $$('.knowledge-base')
 const ug = $$('.user-guide')
 const bpb = $$('.page-builder')
-const om = $$('.our_module')
+const om = $$$('.our_module')
 const sectionIndex = $$('#indexSection')
 const optionMenu = $$('.optionMenu')
 const textLogo = $$('.text-logo')
@@ -109,24 +109,23 @@ const common = {
                 element.onclick = function(e) {
                     __this.hideMenu();
                     const id = this.id;
-                    // __this.removeVideo()
+                    __this.removeVideo()
                     const sectionId = id.replace('Btn', '')
-                    $('#' + sectionId).load(sectionId+'.php')
+                    $('#contentSection').load('./sections/'+sectionId+'.php')
                     if (content.querySelector('section.active') !== null) {
                         content.querySelector('section.active').classList.remove('active')
-                        $$('#' + sectionId).classList.add('active')
+                        $$('#contentSection' ).classList.add('active')
                         // if (flag == 0) {
                         // __this.dropdown(this)
                         // }
                         __this.scrToTop()
                     } else {
-                        const sectionId = id.replace('Btn', '')
-                        $$('#' + sectionId).classList.add('active')
+                        $$('#contentSection').classList.add('active')
                         // if (flag == 0) {
                         // __this.dropdown(this)
                         // }
-                        __this.scrToTop()
                     }
+                        __this.scrToTop()
                     __this.addLinkActive(cateLink, this)
                     // __this.setBgSection()
                     parentLi.forEach(el => {
@@ -158,9 +157,47 @@ const common = {
         })
         parent.innerHTML = contentMenu;
     },
-    // removeVideo: function(){
-    //     video.classList.add('disnone')
-    // }
+    callMenuContentExtension: function(menu, parent){
+        parent.forEach(function(e,index) {
+            let contentMenu = ''
+            switch (index) {
+                case 0:
+                    contentMenu = ''
+                    for (let i = index+1; i < menu.length+1; i++) {
+                        const el = menu[i-1].querySelector('.link-menu-parent')
+                        contentMenu += `<li class="indexMenuLi"><a href="${el.hash}" id="${el.id}" class="indexMenu">${el.innerText}</a></li>`
+                        if (i%4==0) break;
+                    }
+                    e.innerHTML = contentMenu;
+                    break;
+                case 1:
+                    contentMenu = ''
+                    for (let i = 5; i < menu.length+1; i++) {
+                        const el = menu[i-1].querySelector('.link-menu-parent')
+                        contentMenu += `<li class="indexMenuLi"><a href="${el.hash}" id="${el.id}" class="indexMenu">${el.innerText}</a></li>`
+                        if (i%4==0) break;
+                    }
+                    e.innerHTML = contentMenu;
+                    break;
+                case 2:
+                    contentMenu = ''
+                    for (let i = 9; i < menu.length+1; i++) {
+                        const el = menu[i-1].querySelector('.link-menu-parent')
+                        contentMenu += `<li class="indexMenuLi"><a href="${el.hash}" id="${el.id}" class="indexMenu">${el.innerText}</a></li>`
+                    }
+                    e.innerHTML = contentMenu;
+                    break;
+                default:
+                    break;
+            }
+            if (index == 0) {
+                
+            }
+        })
+    },
+    removeVideo: function(){
+        video.classList.add('disnone')
+    }
 }
 const app = {
     callMenu: function(){
@@ -168,7 +205,7 @@ const app = {
         common.callMenuContent(themeInstallation,ug)
         common.callMenuContent(knowledgeBase,kb)
         common.callMenuContent(themeCustomize,bpb)
-        common.callMenuContent(extension,om)
+        common.callMenuContentExtension(extension,om)
         const indexLink = $$$('.indexMenu')
         common.parentLink(indexLink)
     },
@@ -196,7 +233,6 @@ const app = {
                 scrtotopbtn.classList.remove('fade')
             }
         }
-
         // Xu ly scroll to top
         scrtotopbtn.onclick = function() {
             common.scrToTop2()
@@ -249,7 +285,6 @@ const app = {
         this.handleEvents();
         this.callMenu();
         common.hideMenu();
-        // common.setBgSection();
     },
 };
 app.start();

@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css?v=2124432244">
+    <link rel="stylesheet" href="css/style.css?v=21224432244">
+    <link rel="stylesheet" href="css/style2.css?v=1313123212">
     <!-- font-icon -->
     <link rel="stylesheet" href="fonts/fontawesome/css/all.css">
     <link rel="stylesheet" href="fonts/fontawesome2/css/all.min.css">
@@ -19,7 +20,7 @@
 </head>
 <body>
     <div class="site">
-        <!-- <div class="header">
+        <div class="header">
             <div class="container body-content flex-layout">
                 <div class="logo">
                     <a href="" class="home icon-mobile">
@@ -99,7 +100,7 @@
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
         <div class="container">
             <div class="body-content main-content wrap full-wrap">
                 <div class="left-column padding fixme">
@@ -147,9 +148,9 @@
                             <li class="parentLi">
                                 <a href="#ajaxsuitepg" id="ajaxsuiteBtn" class="link-menu link-menu-parent">Ajax Suite</a>
                             </li>
-                            <li class="parentLi">
+                            <!-- <li class="parentLi">
                                 <a href="#collectdatapg" id="collectdataBtn" class="link-menu link-menu-parent">Collect Product Data</a>
-                            </li>
+                            </li> -->
                             <li class="parentLi">
                                 <a href="#menubuilderpg" id="menubuilderBtn" class="link-menu link-menu-parent">Menu Builder</a>
                             </li>
@@ -207,75 +208,21 @@
                                     </ul>
                                 </div>
                                 <div class="block-content">
-                                    <h3>Our Module</h3>
-                                    <ul class="our_module">
-                                    </ul>
+                                    <h3 class="title-center">Our Module</h3>
+                                    <div class="child-column">
+                                        <ul class="our_module" id="column1">
+                                        </ul>
+                                        <ul class="our_module" id="column2">
+                                        </ul>
+                                        <ul class="our_module" id="column3">
+                                        </ul>
+                                    </div>
+                                    <!-- <ul class="our_module" id="column3">
+                                        </ul> -->
                                 </div>
                             </div>
                         </section>
-                        <section class="section" id="introduction">
-                        </section>
-                        <section class="section" id="baseinstall">
-                        </section>
-                        <section class="section" id="quickinstall">
-                        </section>
-                        <section class="section" id="revslider">
-                        </section>
-                        <section class="section" id="themedesign">
-                        </section>
-                        <section class="section" id="themesettings">
-                        </section>
-                        <section class="section" id="demoimporter">
-                        </section>
-                        <section class="section" id="menubuilder">
-                        </section>
-                        <section class="section" id="quickview">
-                        </section>
-                        <section class="section" id="ajaxsuite">
-                        </section>
-                        <section class="section" id="collectdata">
-                        </section>
-                        <section class="section" id="b-instagram">
-                        </section>
-                        <section class="section" id="b-lookbook">
-                        </section>
-                        <section class="section" id="onepagecheckout">
-                        </section>
-                        <section class="section" id="optimizespeed">
-                        </section>
-                        <section class="section" id="searchsuite">
-                        </section>
-                        <section class="section" id="storelocator">
-                        </section>
-                        <section class="section" id="banner">
-                        </section>
-                        <section class="section" id="blogposts">
-                        </section>
-                        <section class="section" id="categorythumbnail">
-                        </section>
-                        <section class="section" id="dailydeal">
-                        </section>
-                        <section class="section" id="faqs">
-                        </section>
-                        <section class="section" id="gallery">
-                        </section>
-                        <section class="section" id="iconbox">
-                        </section>
-                        <section class="section" id="imagebox">
-                        </section>
-                        <section class="section" id="lookbook">
-                        </section>
-                        <section class="section" id="newsletter">
-                        </section>
-                        <section class="section" id="productadvanced">
-                        </section>
-                        <section class="section" id="productcountdowntimers">
-                        </section>
-                        <section class="section" id="quote">
-                        </section>
-                        <section class="section" id="staticmenu">
-                        </section>
-                        <section class="section" id="testimonial">
+                        <section class="section" id="contentSection">
                         </section>
                     </div>
                     <div class="footer">

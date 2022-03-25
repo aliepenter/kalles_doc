@@ -1,0 +1,21 @@
+.block-flex {
+  flex-wrap: wrap;
+}
+.block-content {
+  flex: 0 0 calc(33.333% - 30px);
+}
+.block-flex .block-content:last-child {
+  flex: 0 0 calc(100% - 30px);
+  margin-top: 30px;
+}
+.block-content .title-center{
+  text-align: center;
+}
+ /* .main-content .left-column{
+  height: 100vh;
+  overflow-y: scroll;
+}
+.main-content .left-column::-webkit-scrollbar,
+.main-content .right-column::-webkit-scrollbar {
+  display: none;
+} */
