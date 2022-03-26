@@ -72,15 +72,19 @@
             <div class="container">
                 <div class="body-content wrap-video-content wrap">
                     <div class="video-content padding">
-                        <div class="video-top">
+                        <div class="content-inner">
+                             <div class="video-top">
                             <video controls="">
                                     <source src="images/duka-final.mp4" type="video/mp4">
                                     Trình duyệt của bạn không hỗ trợ HTML5.
                             </video>
+                             </div>
+                            <h3 class="text-video title-blue">Contrary to popular</h3>
                         </div>
-                        <h3 class="text-video title-blue">Contrary to popular</h3>
+                        
                     </div>
                     <div class="video-content padding center">
+                         <div class="content-inner">
                         <div class="video-top">
                             <video controls="">
                                     <source src="images/duka-final.mp4" type="video/mp4">
@@ -88,8 +92,10 @@
                             </video>
                         </div>
                         <h3 class="text-video title-blue ">Contrary to popular</h3>
+                        </div>
                     </div>
                     <div class="video-content padding">
+                         <div class="content-inner">
                         <div class="video-top">
                             <video controls="">
                                     <source src="images/duka-final.mp4" type="video/mp4">
@@ -97,6 +103,7 @@
                             </video>
                         </div>
                         <h3 class="text-video title-blue">Contrary to popular</h3>
+                        </div>
                     </div>
                 </div>
             </div>

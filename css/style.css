@@ -76,20 +76,18 @@ code{
   }
 }
 /* style header */
-.header {
-  position: absolute;
+.header{
+  background-color: #fff;
+}
+.header.sticky {
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 111;
   transition: 0.5s;
+  box-shadow: 0 4px 6px 0 rgb(12 0 46 / 6%);
 
-}
-.header.sticky{
-  background-color: #fff;
-}
-.header.sticky .image-logo img{
-  width: 130px;
 }
 .nav_bar-icon{
   cursor: pointer;
@@ -103,7 +101,7 @@ code{
   font-size: 14px;
 }
 .main-content {
-  padding-top: 50px;
+  padding-top: 70px;
 }
 .body-content,
 .main-content {
@@ -187,8 +185,8 @@ code{
   display: none;
 }
 .body-content .left-column {
-  flex: 0 0 20%;
-  max-width: 20%;
+  flex: 0 0 30%;
+  max-width: 275px;
 }
 .body-content .left-column.d_none{
   display: none;
@@ -198,7 +196,7 @@ code{
   transition: all 0.3s ease;
 }
 .body-content .right-column {
-  flex: 0 0 80%;
+  flex: 1;
 }
 .body-content .right-column.index_des {
   flex: 0 0 100%;
@@ -206,6 +204,17 @@ code{
 .body-content .padding {
   padding-left: 15px;
   padding-right: 15px;
+}
+.wrap-video-content .padding{
+  padding: 0 15px;
+  
+}
+.content-inner{
+  background-color: #fff;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0px 0px 30px 0px rgb(62 107 161 / 10%);
 }
 #indexSection {
   background-color: #f5f5f5;
@@ -219,7 +228,6 @@ a.home {
   display: flex;
   align-items: center;
   line-height: 0;
-  padding: 10px 0;
 }
 .level0 {
   margin-bottom: 15px;
@@ -488,8 +496,7 @@ a {
   transform: translateY(-50%);
 }
 img {
-  border-radius: 10px;
-  width: 100%;
+  max-width: 100%;
   border: 0;
   vertical-align: middle;
 }
@@ -500,6 +507,7 @@ h1 {
   font-size: 30px;
   font-weight: 600;
   color: #333333;
+  font-size:  clamp(25px, 2.5vw,30px);
 }
 .title-blue h2 {
   white-space: nowrap;
@@ -656,6 +664,7 @@ section {
   background-position: center;
   position: relative;
   min-height: 50vh;
+  display: none;
 }
 .banner-img::after {
   content: "";
@@ -692,7 +701,7 @@ section {
 h3.text-video {
   font-weight: 500;
   color: #333;
-  font-size: 19px;
+  font-size: 17px;
   text-transform: capitalize;
 }
 .text-banner {
@@ -727,6 +736,7 @@ h3.text-video {
   border-radius: 4px;
   border: 1px solid #eee;
   flex: 0 0 24%;
+  box-shadow: 0px 0px 30px 0px rgb(62 107 161 / 10%);
 }
 
 .block-content a {
@@ -780,7 +790,7 @@ h3.text-video {
   margin-right: 5px;
 }
 .image-logo img {
-  width: 200px;
+  width: 130px;
   transition: 0.5s;
 }
 .text-logo {
@@ -924,6 +934,7 @@ h3.text-video {
   .body-content .left-column {
     flex: 0 0 100%;
     max-width: 100%;
+   margin-bottom: 40px;
   }
   .body-content .right-column {
     flex: 0 0 100%;
