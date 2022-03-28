@@ -112,86 +112,88 @@
             <div class="body-content main-content wrap full-wrap">
                 <div class="left-column padding fixme">
                     <div class="content hiden-content">
-                        <ul class="level level0" id="knowledgeBase">
-                            <span>1. Introduction</span>
-                            <li class="parentLi">
-                                <a href="#introductionpg" id="introductionBtn" class="link-menu link-menu-parent">
-                                    Getting Started
-                                </a>
-                            </li>
-                        </ul>
-                        <ul class="level level0" id="themeInstallation">
-                            <span>2. Theme installation</span>
-                            <li class="parentLi">
-                                <a href="#baseinstallpg" id="baseinstallBtn" class="link-menu link-menu-parent">Base Package</a>
-                            </li>
-                            <li class="parentLi">
-                                <a href="#quickinstallpg" id="quickinstallBtn" class="link-menu link-menu-parent">Quick-Start Package</a>
-                            </li>
-                        </ul>
-                        <ul class="level level0" id="themeCustomize">
-                            <span>3.Theme Customize</span>
-                            <li class="parentLi">
-                                <a href="#themedesignpg" id="themedesignBtn" class="link-menu link-menu-parent">
-                                    Theme Design
-                                </a>
-                            </li>
-                            <li class="parentLi">
-                                <a href="#themesettingspg" id="themesettingsBtn" class="link-menu link-menu-parent">
-                                    Theme Settings
-                                </a>
-                            </li>
-                            <li class="parentLi">
-                                <a href="#revsliderpg" id="revsliderBtn" class="link-menu link-menu-parent">
-                                    Slider Revolution
-                                </a>
-                            </li>
-                        </ul>
-                        <ul class="level level0" id="extension">
-                            <span>3. Our Module</span>
-                            <li class="parentLi">
-                                <a href="#pagebuilderpg" id="pagebuilderBtn" class="link-menu link-menu-parent">Page Builder</a>
-                            </li>
-                            <li class="parentLi">
-                                <a href="#ajaxsuitepg" id="ajaxsuiteBtn" class="link-menu link-menu-parent">Ajax Suite</a>
-                            </li>
-                            <!-- <li class="parentLi">
-                                <a href="#collectdatapg" id="collectdataBtn" class="link-menu link-menu-parent">Collect Product Data</a>
-                            </li> -->
-                            <li class="parentLi">
-                                <a href="#menubuilderpg" id="menubuilderBtn" class="link-menu link-menu-parent">Menu Builder</a>
-                            </li>
-                            <li class="parentLi">
-                                <a href="#quickviewpg" id="quickviewBtn" class="link-menu link-menu-parent">Quick View</a>
-                            </li>
-                            <li class="parentLi">
-                                <a href="#b-instagrampg" id="b-instagramBtn" class="link-menu link-menu-parent">Instagram</a>
-                            </li>
-                            <li class="parentLi">
-                                <a href="#b-lookbookpg" id="b-lookbookBtn" class="link-menu link-menu-parent">Lookbook</a>
-                            </li>
-                            <li class="parentLi">
-                                <a href="#onepagecheckoutpg" id="onepagecheckoutBtn" class="link-menu link-menu-parent">One Page Checkout</a>
-                            </li>
-                            <li class="parentLi">
-                                <a href="#optimizespeedpg" id="optimizespeedBtn" class="link-menu link-menu-parent">Optimize Speed</a>
-                            </li>
-                            <!-- <li class="parentLi">
-                                <a href="#productquestionpg" id="productquestionBtn" class="link-menu link-menu-parent">Product Quenstion</a>
-                            </li>
-                            <li class="parentLi">
-                                <a href="#productsizechartpg" id="productsizechartBtn" class="link-menu link-menu-parent">Product Size Charts</a>
-                            </li> -->
-                            <li class="parentLi">
-                                <a href="#quickviewpg" id="quickviewBtn" class="link-menu link-menu-parent">Quickview</a>
-                            </li>
-                            <li class="parentLi">
-                                <a href="#searchsuitepg" id="searchsuiteBtn" class="link-menu link-menu-parent">Search Suite</a>
-                            </li>
-                            <li class="parentLi">
-                                <a href="#storelocatorpg" id="storelocatorBtn" class="link-menu link-menu-parent">Store Locator</a>
-                            </li>
-                        </ul>
+                        <div class="hiden-content-inner">
+                            <ul class="level level0" id="knowledgeBase">
+                                <span>1. Introduction</span>
+                                <li class="parentLi">
+                                    <a href="#introductionpg" id="introductionBtn" class="link-menu link-menu-parent">
+                                        Getting Started
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="level level0" id="themeInstallation">
+                                <span>2. Theme installation</span>
+                                <li class="parentLi">
+                                    <a href="#baseinstallpg" id="baseinstallBtn" class="link-menu link-menu-parent">Base Package</a>
+                                </li>
+                                <li class="parentLi">
+                                    <a href="#quickinstallpg" id="quickinstallBtn" class="link-menu link-menu-parent">Quick-Start Package</a>
+                                </li>
+                            </ul>
+                            <ul class="level level0" id="themeCustomize">
+                                <span>3.Theme Customize</span>
+                                <li class="parentLi">
+                                    <a href="#themedesignpg" id="themedesignBtn" class="link-menu link-menu-parent">
+                                        Theme Design
+                                    </a>
+                                </li>
+                                <li class="parentLi">
+                                    <a href="#themesettingspg" id="themesettingsBtn" class="link-menu link-menu-parent">
+                                        Theme Settings
+                                    </a>
+                                </li>
+                                <li class="parentLi">
+                                    <a href="#revsliderpg" id="revsliderBtn" class="link-menu link-menu-parent">
+                                        Slider Revolution
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="level level0" id="extension">
+                                <span>3. Our Module</span>
+                                <li class="parentLi">
+                                    <a href="#pagebuilderpg" id="pagebuilderBtn" class="link-menu link-menu-parent">Page Builder</a>
+                                </li>
+                                <li class="parentLi">
+                                    <a href="#ajaxsuitepg" id="ajaxsuiteBtn" class="link-menu link-menu-parent">Ajax Suite</a>
+                                </li>
+                                <!-- <li class="parentLi">
+                                    <a href="#collectdatapg" id="collectdataBtn" class="link-menu link-menu-parent">Collect Product Data</a>
+                                </li> -->
+                                <li class="parentLi">
+                                    <a href="#menubuilderpg" id="menubuilderBtn" class="link-menu link-menu-parent">Menu Builder</a>
+                                </li>
+                                <li class="parentLi">
+                                    <a href="#quickviewpg" id="quickviewBtn" class="link-menu link-menu-parent">Quick View</a>
+                                </li>
+                                <li class="parentLi">
+                                    <a href="#b-instagrampg" id="b-instagramBtn" class="link-menu link-menu-parent">Instagram</a>
+                                </li>
+                                <li class="parentLi">
+                                    <a href="#b-lookbookpg" id="b-lookbookBtn" class="link-menu link-menu-parent">Lookbook</a>
+                                </li>
+                                <li class="parentLi">
+                                    <a href="#onepagecheckoutpg" id="onepagecheckoutBtn" class="link-menu link-menu-parent">One Page Checkout</a>
+                                </li>
+                                <li class="parentLi">
+                                    <a href="#optimizespeedpg" id="optimizespeedBtn" class="link-menu link-menu-parent">Optimize Speed</a>
+                                </li>
+                                <!-- <li class="parentLi">
+                                    <a href="#productquestionpg" id="productquestionBtn" class="link-menu link-menu-parent">Product Quenstion</a>
+                                </li>
+                                <li class="parentLi">
+                                    <a href="#productsizechartpg" id="productsizechartBtn" class="link-menu link-menu-parent">Product Size Charts</a>
+                                </li> -->
+                                <li class="parentLi">
+                                    <a href="#quickviewpg" id="quickviewBtn" class="link-menu link-menu-parent">Quickview</a>
+                                </li>
+                                <li class="parentLi">
+                                    <a href="#searchsuitepg" id="searchsuiteBtn" class="link-menu link-menu-parent">Search Suite</a>
+                                </li>
+                                <li class="parentLi">
+                                    <a href="#storelocatorpg" id="storelocatorBtn" class="link-menu link-menu-parent">Store Locator</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="optionMenu hiden-content"></div>
                 </div>

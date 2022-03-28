@@ -77,9 +77,6 @@ code{
 }
 /* style header */
 .header{
-  background-color: #fff;
-}
-.header.sticky {
   position: fixed;
   top: 0;
   left: 0;
@@ -87,6 +84,7 @@ code{
   z-index: 111;
   transition: 0.5s;
   box-shadow: 0 4px 6px 0 rgb(12 0 46 / 6%);
+  background-color: #fff;
 
 }
 .nav_bar-icon{
@@ -187,6 +185,7 @@ code{
 .body-content .left-column {
   flex: 0 0 30%;
   max-width: 275px;
+  position: relative;
 }
 .body-content .left-column.d_none{
   display: none;
@@ -244,6 +243,7 @@ a.home {
 body {
   font-family: "Poppins", sans-serif;
   background-color: #f2f5f7;
+  margin-top: 73px;
 }
 /* .left-column {
    
@@ -556,14 +556,39 @@ p {
   transition: 0.5s;
   padding: 0 15px;
   color: #fff;
+  position: fixed;
+  width: 250px;
+ 
+
+}
+.hiden-content-inner{
   overflow: hidden;
-  overflow-y: scroll;
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
+  max-height: 80vh;
+}
+.hiden-content-inner:hover{
+  overflow-y: auto;
 }
 .content::-webkit-scrollbar {
   display: none;
 }
+
+.hiden-content-inner::-webkit-scrollbar-track
+{
+	background-color: #f5f5f5;
+}
+
+.hiden-content-inner::-webkit-scrollbar
+{
+	width: 4px;
+}
+
+.hiden-content-inner::-webkit-scrollbar-thumb
+{
+	background-color: #d7d7d7;
+}
+
+
+
 .menu-block {
   width: 30px;
   height: 52px;
@@ -751,7 +776,7 @@ h3.text-video {
 
 .level span {
   color: #333333;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 600;
   text-transform: uppercase;
   line-height: 1.8;
@@ -953,6 +978,10 @@ h3.text-video {
   .video-content {
     flex: 0 0 50%;
     max-width: 50%;
+  }
+  .content{
+    position: static;
+    width: 100%;
   }
 }
 @media only screen and (max-width: 767px) {
