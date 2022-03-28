@@ -27,7 +27,7 @@
 </div>
 <div class="overview" id="installationpg-overview">
 <div class="base-packege">
-    <h2 class="title">BASE PACKAGE</h2>
+    <h2 class="title">Base Package</h2>
     <div class="prepare-install">
         <h3 style="padding-top: 10px">1. Prepare Installation</h3>
         <p>In this guide, We assume that you already have Magento installed, so to prepare installation, you need to do the following steps:</p>

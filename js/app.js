@@ -107,6 +107,7 @@ const common = {
         if (className != null) {
             className.forEach(element => {
                 element.onclick = function(e) {
+                    bannerImg.classList.add('d_none');
                     __this.hideMenu();
                     const id = this.id;
                     __this.removeVideo()

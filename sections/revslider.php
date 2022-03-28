@@ -40,9 +40,6 @@
         How to Use
         <a href="#revsliderpg-howToUse" class="hyperlink"></a>
     </h2>
-    <h3 class="title" id="revsliderpg-howToUse-admin">
-        <a href="#revsliderpg-howToUse-admin" class="hyperlink"></a>
-    </h3>
     <p>Go to <code class=""><span class="pre">NWDTHEMES</span> <span class="pre">&gt;</span> <span class="pre">Slider Overview</span></code></strong> in Admin panel.</p>
     <img src="images/slpath.png" alt="" width="90%">
 </div>

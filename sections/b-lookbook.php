@@ -39,9 +39,6 @@
         How to Use
         <a href="#b-lookbookpg-howToUse" class="hyperlink"></a>
     </h2>
-    <h3 class="title" id="b-lookbookpg-howToUse-admin">
-        <a href="#b-lookbookpg-howToUse-admin" class="hyperlink"></a>
-    </h3>
     <p>Go to <code class=""><span class="pre">BLUESKYTECHCO</span> <span class="pre">&gt;</span> <span class="pre">Lookbook</span></code></strong> in Admin panel.</p>
     <img src="images/lookbookpath.png" alt="" width="90%">
 </div>

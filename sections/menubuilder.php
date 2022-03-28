@@ -36,6 +36,16 @@
         like header or inside the Page.
     </p>
 </div>
+<div class="intro">
+    <h2 class="title" id="menubuilderpg-intro">
+        Introduction to Theme Design
+        <a href="#menubuilderpg-intro" class="hyperlink"></a>
+    </h2>
+    <p>Learn how you can use <strong>Theme Design</strong> :</p>
+    <video autoplay muted loop playsinline __idm_id__="516097" width="90%">
+        <source src="images/videos/menu builder.webm" type="video/webm">
+    </video>
+</div>
 <div class="use">
     <h2 class="title" id="menubuilderpg-howToUse">
         How to Use

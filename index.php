@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css?v=21224432244">
+    <link rel="stylesheet" href="css/style.css?v=212244232244">
     <link rel="stylesheet" href="css/style2.css?v=1313123212">
     <!-- font-icon -->
     <link rel="stylesheet" href="fonts/fontawesome/css/all.css">

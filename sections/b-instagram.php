@@ -39,9 +39,6 @@
         How to Use
         <a href="#b-instagrampg-howToUse" class="hyperlink"></a>
     </h2>
-    <h3 class="title" id="b-instagrampg-howToUse-admin">
-        <a href="#b-instagrampg-howToUse-admin" class="hyperlink"></a>
-    </h3>
     <p>You can easily setup instagram in Admin panel.</p>
     <img src="images/instagrampath.png" alt="" width="90%">
 </div>

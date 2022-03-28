@@ -40,9 +40,6 @@
         How to Use
         <a href="#optimizespeedpg-howToUse" class="hyperlink"></a>
     </h2>
-    <h3 class="title" id="optimizespeedpg-howToUse-admin">
-        <a href="#optimizespeedpg-howToUse-admin" class="hyperlink"></a>
-    </h3>
     <p>You can easily setup Optimize Speed in Admin panel.</p>
     <img src="images/optimizespeed.png" alt="" width="90%">
 </div>

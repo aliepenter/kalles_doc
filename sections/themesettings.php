@@ -40,9 +40,6 @@
         How to Use
         <a href="#themesettingspg-howToUse" class="hyperlink"></a>
     </h2>
-    <h3 class="title" id="themesettingspg-howToUse-admin">
-        <a href="#themesettingspg-howToUse-admin" class="hyperlink"></a>
-    </h3>
     <p>You can easily setup our themes in Admin panel.</p>
     <img src="images/themesettingpath.png" alt="" width="90%">
 </div>

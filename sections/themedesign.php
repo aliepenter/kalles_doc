@@ -35,14 +35,19 @@
         Customers can not only use wonderful themes, but also have a lot of options to modify themes through the <strong>Theme Design</strong> and <strong>Theme Design</strong> module.
     </p>
 </div>
+<div class="intro">
+    <h2 class="title" id="themedesignpg-intro">
+        Introduction to Theme Design
+        <a href="#themedesignpg-intro" class="hyperlink"></a>
+    </h2>
+    <p>Learn how you can use <strong>Theme Design</strong> :</p>
+    <iframe width="800" height="450" src="https://www.youtube.com/embed/7TUyBNGTjzQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 <div class="use">
     <h2 class="title" id="themedesignpg-howToUse">
         How to Use
         <a href="#themedesignpg-howToUse" class="hyperlink"></a>
     </h2>
-    <h3 class="title" id="themedesignpg-howToUse-admin">
-        <a href="#themedesignpg-howToUse-admin" class="hyperlink"></a>
-    </h3>
     <p>You can easily design our themes in Admin panel.</p>
     <img src="images/themedesignpath.png" alt="" width="90%">
 </div>

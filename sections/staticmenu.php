@@ -40,9 +40,6 @@
         How to Use
         <a href="#staticmenupg-howToUse" class="hyperlink"></a>
     </h2>
-    <h3 class="title" id="staticmenupg-howToUse-admin">
-        <a href="#staticmenupg-howToUse-admin" class="hyperlink"></a>
-    </h3>
     <p>When edit or create new page, drag and drop a <strong>Row</strong>, then drag and drop <strong>Static Menu</strong> item on this row. Click to button edit to <a class="linkinpage" href="#imageboxpg-howToConfigure">configure</a> Static Menu Module.</p>
     <img src="images/adminHowtoUse.png" alt="" width="90%">
 </div>
