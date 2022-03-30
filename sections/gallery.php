@@ -45,18 +45,9 @@
         <a href="#gallerypg-howToUse-admin" class="hyperlink"></a>
     </h3>
     <p>When edit or create new page, drag and drop a <strong>Row</strong>, then drag and drop <strong>Gallery</strong> item on this row.</p>
-    <img src="images/adminHowtoUse.png" alt="" width="90%">
-    <h3 class="title" id="gallerypg-howToUse-customer">
-        2. Customer
-        <a href="#gallerypg-howToUse-customer" class="hyperlink"></a>
-    </h3>
-    <p>Customers can interact with 3 types of menus in the frontstore.</p>
-    <ul class="list-menu normal">
-        <li>
-            <h4>Horizontal Menu</h4>
-            <img src="images/horizontalMenu.png" alt="" width="90%">
-        </li>
-    </ul>
+    <video autoplay muted loop playsinline __idm_id__="516097" style="width: 100%">
+        <source src="images/videos/pb.webm" type="video/webm">
+    </video>
 </div>
 <div class="configure" id="gallerypg-howToConfigure">
 <h2 class="title">

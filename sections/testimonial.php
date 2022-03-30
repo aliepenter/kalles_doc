@@ -41,7 +41,9 @@
         <a href="#testimonialpg-howToUse" class="hyperlink"></a>
     </h2>
     <p>When edit or create new page, drag and drop a <strong>Row</strong>, then drag and drop <strong>Testimonial</strong> item on this row. Click to button edit to <a class="linkinpage" href="#imageboxpg-howToConfigure">configure</a> Testimonial Module.</p>
-    <img src="images/adminHowtoUse.png" alt="" width="90%">
+    <video autoplay muted loop playsinline __idm_id__="516097" style="width: 100%">
+        <source src="images/videos/pb.webm" type="video/webm">
+    </video>
 </div>
 <div class="configure" id="testimonialpg-howToConfigure">
     <h2 class="title">

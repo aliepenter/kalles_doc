@@ -7,7 +7,7 @@
             <p>The Blueskytechco PageBuilder custom module provides a lot of functions, making it easier and more convenient to create, manage and edit Magento 2 themes. It helps customers who do not know about programming can also create a website according to their wishes.</p>
             
         </div>
-        <div class="create-theme-btn flex">
+        <div class="create-theme-btn flex" style="cursor:pointer">
             <div class="icon-create" style="width:15%">
                 <img src="images/artist.png" alt="" width="100%">
             </div>
@@ -21,3 +21,20 @@
         <img src="images/pagebuilder.png" alt="" width="90%">
     </div>
 </div>
+<script>
+    if (typeof createThemeBtn !== 'undefined') {
+        createThemeBtn.onclick = function(){
+        $('#contentSection').load('./sections/pagebuilder-index.php')
+        document.body.scrollTop = bannerImg.offsetHeight
+        document.documentElement.scrollTop = bannerImg.offsetHeight
+    }
+    }else{
+    const createThemeBtn = $$('.create-theme-btn')
+    createThemeBtn.onclick = function(){
+            $('#contentSection').load('./sections/pagebuilder-index.php')
+            document.body.scrollTop = bannerImg.offsetHeight
+                    document.documentElement.scrollTop = bannerImg.offsetHeight
+            }
+    }
+    
+</script>

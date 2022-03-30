@@ -45,12 +45,9 @@
         <a href="#iconboxpg-howToUse-admin" class="hyperlink"></a>
     </h3>
     <p>When edit or create new page, drag and drop a <strong>Row</strong>, then drag and drop <strong>Icon Box</strong> item on this row. Click to button edit to <a class="linkinpage" href="#iconboxpg-howToConfigure">configure</a> Icon Box Module.</p>
-    <img src="images/adminHowtoUse.png" alt="" width="90%">
-    <h3 class="title" id="iconboxpg-howToUse-customer">
-        2. Customer
-        <a href="#iconboxpg-howToUse-customer" class="hyperlink"></a>
-    </h3>
-    <p>Customers can interact with 3 types of menus in the frontstore.</p>
+    <video autoplay muted loop playsinline __idm_id__="516097" style="width: 100%">
+        <source src="images/videos/pb.webm" type="video/webm">
+    </video>
 </div>
 <div class="configure" id="iconboxpg-howToConfigure">
     <h2 class="title">

@@ -163,13 +163,37 @@
         <li>
             <p>In the <strong>Label "Sale" with Discount Percent</strong> field: Select <strong>Yes</strong> if you want to show Discount Percent.</p>
         </li>
-        <img src="images/tsproduct2.png" width="90%" alt="">
+        <img src="images/tsproductdetail.png" width="90%" alt="">
         <li>
             <p>In the <strong>Page Layout</strong> field: Select the layout of <strong>Detail Page</strong>.</p>
         </li>
         <li>
+            <p>In the <strong>Sticky Add To Cart</strong> field: Select <strong>Enable</strong> to show sticky <strong>Add to cart</strong> at bottom.</p>
+        </li>
+        <li>
+            <p>In the <strong>Display Thumbnails</strong> field: Select the position thumbnail in <strong>Detail Page</strong>.</p>
+        </li>
+        <img src="images/tsthumbnailfront.png" width="90%" alt="">
+        <li>
+            <p>In the <strong>Enable Zoom</strong> field: Select <strong>Enable</strong> if you want to zoom when hover over image of product.</p>
+        </li>
+        <li>
+            <p>In the <strong>Enable PhotoSwipe Popup</strong> field: Select <strong>Enable</strong> to use PhotoSwipe Popup.</p>
+        </li>
+        <li>
+            <p>In the <strong>Enable Buy Now Button</strong> field: Select <strong>Enable</strong> to enable Buy Now Button.</p>
+        </li>
+        <li>
+            <p>In the <strong>Enable Product sticky</strong> field: Select <strong>Enable</strong> to enable Product sticky.</p>
+        </li>
+        <li>
+            <p>In the <strong>Display Tabs</strong> field: Select the type of <strong>Tabs</strong> to show.</p>
+        </li>
+        <img src="images/tstab.png" width="90%" alt="">
+        <li>
             <p>In the <strong>Custom Tabs</strong> field: Add or modify the Tabs in Detail Page.</p>
         </li>
+        <img src="images/tsupsell.png" width="90%" alt="">
         <li>
             <p>In the <strong>Big Desktops</strong> field: Specify the column of Related, Up-Sells and Cross-Sells Product in Detail Page on Big Desktops screen.</p>
         </li>

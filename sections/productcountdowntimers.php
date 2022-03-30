@@ -45,13 +45,9 @@
         <a href="#productcountdowntimers-howToUse-admin" class="hyperlink"></a>
     </h3>
     <p>When edit or create new page, drag and drop a <strong>Row</strong>, then drag and drop <strong>Lookbook</strong> item on this row. Click to button edit to <a class="linkinpage" href="#imageboxpg-howToConfigure">configure</a> Lookbook Module.</p>
-    <img src="images/adminHowtoUse.png" alt="" width="90%">
-    <h3 class="title" id="productcountdowntimers-howToUse-customer">
-        2. Customer
-        <a href="#productcountdowntimers-howToUse-customer" class="hyperlink"></a>
-    </h3>
-    <p>Product Countdown Timers in Storefront.</p>
-    <img src="images/productcountdowntimerinpage.png" alt="" width="60%">
+    <video autoplay muted loop playsinline __idm_id__="516097" style="width: 100%">
+        <source src="images/videos/pb.webm" type="video/webm">
+    </video>
 </div>
 <div class="configure" id="productcountdowntimers-howToConfigure">
     <h2 class="title">

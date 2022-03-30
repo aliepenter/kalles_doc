@@ -59,7 +59,7 @@
         <li>
             <h4>Wishlist</h4>
             <p>When customers click to button <strong>Add to Wishlist</strong>(usually it will be heart shape), Ajax Wishlist will show the product popup or a login popup as follow.</p>
-            <img src="images/AjFewishlish.png" alt="" width="90%">
+            <img src="images/ajwishlist.png" alt="" width="90%">
         </li>
         <li>
             <h4>Compare</h4>
@@ -106,7 +106,7 @@
         </li>
         <li>
             <h4>Ajax Wishlist</h4>
-            <img src="images/Ajwishlist.png" width="80%" alt="">
+            <img src="images/ajwishlistsetting.png" width="80%" alt="">
             <ul>
                 <li>
                     <p>In the <strong>Enable</strong> field: Select <strong>Yes</strong> if you want to enable <strong>Ajax Cart</strong>.</p>
@@ -124,7 +124,7 @@
                     <p>In the <strong>Background Image Popup</strong> field: Insert the Background of login popup.</p>
                 </li>
             </ul>
-            <img src="images/AjFewishlish.png" width="80%" alt="">
+            <img src="images/ajwishlist.png" width="80%" alt="">
         </li>
         <li>
             <h4>Ajax Compare</h4>

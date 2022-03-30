@@ -46,22 +46,9 @@
         <a href="#productadvancedpg-howToUse-admin" class="hyperlink"></a>
     </h3>
     <p>When edit or create new page, drag and drop a <strong>Row</strong>, then drag and drop <strong>Product Advanced</strong> item on this row. Click to button edit to <a class="linkinpage" href="#productadvancedpg-howToConfigure">configure</a> Product Advanced Module.</p>
-    <img src="images/adminHowtoUse.png" alt="" width="90%">
-    <h3 class="title" id="productadvancedpg-howToUse-customer">
-        2. Customer
-        <a href="#productadvancedpg-howToUse-customer" class="hyperlink"></a>
-    </h3>
-    <p>Product Advanced in Storefront.</p>
-    <ul class="list-menu normal">
-        <li>
-            <h4>Carousel</h4>
-            <img src="images/categoryCarousel.png" alt="" width="60%">
-        </li>
-        <li>
-            <h4>Grid/List</h4>
-            <img src="images/categoryGridList.png" alt="" width="60%">
-        </li>
-    </ul>
+    <video autoplay muted loop playsinline __idm_id__="516097" style="width: 100%">
+        <source src="images/videos/pb.webm" type="video/webm">
+    </video>
 </div>
 <div class="configure" id="productadvancedpg-howToConfigure">
     <h2 class="title">

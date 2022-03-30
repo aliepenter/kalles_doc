@@ -45,7 +45,9 @@
         <a href="#dailydealpg-howToUse-admin" class="hyperlink"></a>
     </h3>
     <p>When edit or create new page, drag and drop a <strong>Row</strong>, then drag and drop <strong>Daily Deal</strong> item on this row. Click to button edit to <a class="linkinpage" href="#dailydealpg-howToConfigure">configure</a> Daily Deal Module.</p>
-    <img src="images/adminHowtoUse.png" alt="" width="90%">
+    <video autoplay muted loop playsinline __idm_id__="516097" style="width: 100%">
+        <source src="images/videos/pb.webm" type="video/webm">
+    </video>
 </div>
 <div class="configure" id="dailydealpg-howToConfigure">
     <h2 class="title">

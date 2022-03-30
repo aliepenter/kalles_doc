@@ -45,13 +45,9 @@
         <a href="#bannerpg-howToUse-admin" class="hyperlink"></a>
     </h3>
     <p>When edit or create new page, drag and drop a <strong>row</strong>, then drag and drop <strong>Banner</strong> item on this row. Click to button edit to <a class="linkinpage" href="#bannerpg-howToConfigure">configure</a>.</p>
-    <img src="images/adminHowtoUse.png" alt="" width="90%">
-    <h3 class="title" id="bannerpg-howToUse-customer">
-        2. Customer
-        <a href="#bannerpg-howToUse-customer" class="hyperlink"></a>
-    </h3>
-    <p>Banner in Storefront.</p>
-    <img src="images/horizontalMenu.png" alt="" width="90%">
+    <video autoplay muted loop playsinline __idm_id__="516097" style="width: 100%">
+        <source src="images/videos/pb.webm" type="video/webm">
+    </video>
 </div>
 <div class="configure" id="bannerpg-howToConfigure">
     <h2 class="title">

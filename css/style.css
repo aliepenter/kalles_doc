@@ -6,6 +6,7 @@
   padding: 0;
   border: none;
 }
+
 .leftpb{
   width: 75%;
   width: 25%;
@@ -39,7 +40,7 @@
   margin: 0;
 }
 .text-create-theme{
-  padding: 10px 0;
+  padding: 10px 10px 10px 0
 }
 .pagebuilder-sec1 h1{
   font-size: 40px;
@@ -87,7 +88,7 @@ code{
   color: #01aae9;
 }
 .reaction span {
-  padding-right: 15px;
+  padding-right: 10px;
   font-size: 13px;
 }
 .titleSection {
@@ -102,7 +103,8 @@ code{
 .inforTitle {
   flex: 1;
 }
-.right-column img{
+.right-column img,
+iframe{
   margin: 30px 0;
   border-radius: 15px;
 }
@@ -239,7 +241,7 @@ code{
 }
 .body-content .left-column {
   flex: 0 0 30%;
-  max-width: 275px;
+  max-width: 250px;
   position: relative;
 }
 .body-content .left-column.d_none{
@@ -256,7 +258,6 @@ code{
   flex: 0 0 100%;
 }
 .body-content .padding {
-  padding-left: 15px;
   padding-right: 15px;
 }
 .wrap-video-content .padding{
@@ -533,7 +534,8 @@ a {
   box-shadow: rgba(0, 0, 0, 0) 0px 5px 15px !important;
   width: 80%;
 }
-.right-column img {
+.right-column img,
+iframe {
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 50px;
 }
 .img-inline {
@@ -768,9 +770,8 @@ section {
   flex: 0 0 33.33%;
   max-width: 33.33%;
 }
-.padding {
-  padding-left: 15px;
-  padding-right: 15px;
+.padding2 {
+  padding-left: 10px;
 }
 .video-top {
   margin-bottom: 20px;
@@ -869,10 +870,6 @@ h3.text-video {
 }
 .image-logo {
   margin-right: 5px;
-}
-.image-logo img {
-  width: 130px;
-  transition: 0.5s;
 }
 .text-logo {
   width: 75%;

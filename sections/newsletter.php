@@ -45,7 +45,9 @@
         <a href="#newsletterpg-howToUse-admin" class="hyperlink"></a>
     </h3>
     <p>When edit or create new page, drag and drop a <strong>Row</strong>, then drag and drop <strong>Newsletter</strong> item on this row. Click to button edit to <a class="linkinpage" href="#imageboxpg-howToConfigure">configure</a> Newsletter Module.</p>
-    <img src="images/adminHowtoUse.png" alt="" width="90%">
+    <video autoplay muted loop playsinline __idm_id__="516097" style="width: 100%">
+        <source src="images/videos/pb.webm" type="video/webm">
+    </video>
     <h3 class="title" id="newsletterpg-howToUse-customer">
         2. Customer
         <a href="#newsletterpg-howToUse-customer" class="hyperlink"></a>

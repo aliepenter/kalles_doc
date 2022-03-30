@@ -33,6 +33,8 @@ const video = $$('.wrap-video')
 const bannerImg = $$('.banner-img')
 const leftco = $$('.body-content .left-column')
 const rightco = $$('.body-content .right-column')
+
+
 let flag = 0;
 let remenber = [];
 
@@ -198,7 +200,7 @@ const common = {
     },
     removeVideo: function(){
         video.classList.add('disnone')
-    }
+    },
 }
 const app = {
     callMenu: function(){

@@ -41,7 +41,9 @@
         <a href="#staticmenupg-howToUse" class="hyperlink"></a>
     </h2>
     <p>When edit or create new page, drag and drop a <strong>Row</strong>, then drag and drop <strong>Static Menu</strong> item on this row. Click to button edit to <a class="linkinpage" href="#imageboxpg-howToConfigure">configure</a> Static Menu Module.</p>
-    <img src="images/adminHowtoUse.png" alt="" width="90%">
+    <video autoplay muted loop playsinline __idm_id__="516097" style="width: 100%">
+        <source src="images/videos/pb.webm" type="video/webm">
+    </video>
 </div>
 <div class="configure" id="staticmenupg-howToConfigure">
     <h2 class="title">
@@ -52,10 +54,10 @@
     <br/>
     Add new page or edit an exist page, then scroll to section <strong>Content</strong> and click to Edit with Page Builder. Add <strong>Static Menu</strong> like we have instructed in <a class="linkinpage" href="#staticmenupg-howToUse">How to Use</a>.
     </p>
-    <img src="images/addmenu.png" alt="" width="70%">
+    <img src="images/addmenu.png" alt="" width="90%">
     <p>Click to plus icon to add a new menu or you want to edit the menu, click to <strong>Edit Menu Text</strong></p>
     <ul class="normal">
-        <img src="images/menusetting.png" alt="" width="70%">
+        <img src="images/menusetting.png" alt="" width="90%">
         
         <li>
             <p>In the <strong>Text</strong> field: Specify the text of Menu</p>

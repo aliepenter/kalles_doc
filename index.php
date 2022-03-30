@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css?v=212244232244">
-    <link rel="stylesheet" href="css/style2.css?v=1313123212">
+    <link rel="stylesheet" href="css/style.css?v=2122424232244">
+    <link rel="stylesheet" href="css/style2.css?v=13131223212">
     <!-- font-icon -->
     <link rel="stylesheet" href="fonts/fontawesome/css/all.css">
     <link rel="stylesheet" href="fonts/fontawesome2/css/all.min.css">
@@ -17,6 +17,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
     <div class="site">
@@ -26,7 +27,9 @@
                     <a href="" class="home icon-mobile">
                         <div class="menu-icon"></div>
                         <div class="image-logo">
-                            <img src="images/Logo ok-01.svg" alt="" class="bigLogo">
+                            <video style="width: 250px;" autoplay muted loop playsinline __idm_id__="516097">
+                                <source src="images/videos/Pre-comp 1.webm" type="video/webm">
+                            </video>
                         </div>
                     </a>
                 </div>
@@ -177,12 +180,12 @@
                                 <li class="parentLi">
                                     <a href="#optimizespeedpg" id="optimizespeedBtn" class="link-menu link-menu-parent">Optimize Speed</a>
                                 </li>
-                                <!-- <li class="parentLi">
+                                <li class="parentLi">
                                     <a href="#productquestionpg" id="productquestionBtn" class="link-menu link-menu-parent">Product Quenstion</a>
                                 </li>
                                 <li class="parentLi">
                                     <a href="#productsizechartpg" id="productsizechartBtn" class="link-menu link-menu-parent">Product Size Charts</a>
-                                </li> -->
+                                </li>
                                 <li class="parentLi">
                                     <a href="#quickviewpg" id="quickviewBtn" class="link-menu link-menu-parent">Quickview</a>
                                 </li>
@@ -197,7 +200,7 @@
                     </div>
                     <div class="optionMenu hiden-content"></div>
                 </div>
-                <div class="right-column defaultPadding padding">
+                <div class="right-column defaultPadding padding2">
                     <div class="main">
                         <section class="section active" id="indexSection">
                             <div class="block-flex">
@@ -244,7 +247,6 @@
             </div>
         </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="js/app.js?v=123222222222113333"></script>
 </body>
 
